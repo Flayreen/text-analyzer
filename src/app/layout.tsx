@@ -25,10 +25,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={cn(geistSans.variable, geistMono.variable, 'min-h-screen')}
-      >
-        <div className="px-4 lg:px-8 flex justify-center min-h-screen">
+      <body className={cn(geistSans.variable, geistMono.variable, 'h-[650px]')}>
+        <div className="px-4 lg:px-8 flex justify-center h-[650px] py-5">
           <div className="max-w-[1000px] w-full">{children}</div>
         </div>
       </body>
